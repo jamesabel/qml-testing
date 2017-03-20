@@ -1,1 +1,7 @@
-PyQt5==5.7
+# PyQt5==5.7
+# Need to use latest PyQt else Python itself crashes
+# (PyQt5 version 5.8.1 worked for me)
+# See pyqt_crash.txt
+#
+PyQt5
+osnap
